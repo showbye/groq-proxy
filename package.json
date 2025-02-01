@@ -1,0 +1,27 @@
+{
+  "name": "vercel-groq-proxy",
+  "version": "1.0.0",
+  "description": "A simple Vercel proxy for Groq API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+     "lint": "next lint"
+  },
+  "keywords": ["vercel", "proxy", "groq"],
+  "author": "Your Name",
+    "dependencies": {
+    "next": "latest",
+      "react": "^18",
+    "react-dom": "^18"
+  },
+   "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
